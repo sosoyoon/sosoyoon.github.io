@@ -51,11 +51,8 @@ author:
 menu:
   - title:             Study
     url:               /study/
-<<<<<<< HEAD
   - title:             Diary
-    url:               /diary/
-=======
->>>>>>> 7afd1c318873aa86c7ab0666e944d9a5b3cc7c3c
+    url:               /diary/  
   - title:             Example
     url:               /example/
   - title:             Documentation
