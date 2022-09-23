@@ -49,6 +49,10 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             Study
+    url:               /study/
+  - title:             Diary
+    url:               /diary/
   - title:             Example
     url:               /example/
   - title:             Documentation
@@ -400,21 +404,21 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/bg.jpg
     posts:
       layout: post
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/bg.jpg
     projects:
       layout: project
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/bg.jpg
       links:
         - title: Project Link
           url: https://example.com
