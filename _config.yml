@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://sosoyoon.github.io
+# url:                   https://username.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -37,7 +37,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-#logo:                  /assets/img/logo.png
+# logo:                  /assets/img/logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -49,14 +49,10 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Study
+  - title:             STUDY
     url:               /study/
-  - title:             Diary
-    url:               /diary/  
-#   - title:             Example
-#     url:               /example/
-#   - title:             Documentation
-#     url:               /docs/
+  - title:             DIARY
+    url:               /diary/
   - title:             About
     url:               /about/
 
@@ -80,9 +76,12 @@ permalink:             /:categories/:year-:month-:day-:title/
 paginate:              10
 paginate_path:         /:num/
 
-#Theme
-#theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+
+# Theme
+# ---------------------------------------------------------------------------------------
+
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
@@ -404,21 +403,21 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/bg.jpg
+        path: /assets/img/sidebar-bg.jpg
     posts:
       layout: post
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/bg.jpg
+        path: /assets/img/sidebar-bg.jpg
     projects:
       layout: project
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/bg.jpg
+        path: /assets/img/sidebar-bg.jpg
       links:
         - title: Project Link
           url: https://example.com
