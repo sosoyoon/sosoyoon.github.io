@@ -80,7 +80,11 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
+<<<<<<< HEAD
 theme: jekyll-theme-hydejack
+=======
+# theme: jekyll-theme-hydejack
+>>>>>>> 1a893cad2ead9c7253615c6dff465b34c087a336
 remote_theme: hydecorp/hydejack@v9
 
 
