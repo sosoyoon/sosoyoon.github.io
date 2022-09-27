@@ -81,7 +81,7 @@ paginate_path:         /:num/
 # ---------------------------------------------------------------------------------------
 
 theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9
+remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
@@ -265,15 +265,24 @@ hydejack:
   hide_last_modified:  false
 
   # Note that dark mode only works in the PRO version of Hydejack.
+  # dark_mode:
+  #   # Set to `true` to always use the dark theme.
+  #   always:            false
+
+  #   # Set to `true` to use the dark theme based on visitors' preference (OS setting).
+  #   dynamic:           true
+
+  #   # Set to `true` to allow visitors to switch between light and dark mode.
+  #   icon:              true
+  #   sunrise: 6
+  #   sunset:  18
+  hydejack:
   dark_mode:
-    # Set to `true` to always use the dark theme.
-    always:            false
-
-    # Set to `true` to use the dark theme based on visitors' preference (OS setting).
-    dynamic:           true
-
-    # Set to `true` to allow visitors to switch between light and dark mode.
-    icon:              true
+    dynamic: true
+    sunrise: 6
+    sunset:  18
+    icon:    true
+    always:  false
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
