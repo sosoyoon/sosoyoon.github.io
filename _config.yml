@@ -82,7 +82,6 @@ paginate_path:         /:num/
 
 # theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
-# serve확인할때는 remote주석처리
 
 
 # Customizaton
