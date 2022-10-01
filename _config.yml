@@ -53,7 +53,7 @@ menu:
     url:               /study/
   - title:             DIARY
     url:               /diary/
-  - title:             About
+  - title:             ABOUT
     url:               /about/
 
 # Add links to the footer.
